@@ -62,7 +62,7 @@ export default function ProjectForm({ initial, mode, id }:{
         <label className="text-sm text-gray-700">Status</label>
         <select className="w-full border rounded-lg p-3" {...register("status")}>
           <option value="PLANNED">Planned</option>
-          <option value="IN_PROGRESS">In progress</option>
+          <option value="IN_PROGRESS">In progress Task</option>
           <option value="DONE">Done</option>
         </select>
       </div>
