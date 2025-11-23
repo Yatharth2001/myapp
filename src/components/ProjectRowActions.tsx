@@ -18,7 +18,7 @@ export default function ProjectRowActions({ id }: { id: string }) {
     <div className="flex gap-2">
       <a className="text-sm underline" href={`/projects/${id}`}>View</a>
       <a className="text-sm underline" href={`/projects/${id}/edit`}>Edit</a>
-      <button className="text-sm text-red-600" onClick={del}>Delete</button>
+      <button className="text-sm text-red-600" onClick={del}>Delete Task</button>
     </div>
   );
 }
